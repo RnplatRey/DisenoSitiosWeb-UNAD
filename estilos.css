@@ -68,9 +68,9 @@ body {
 		position: relative; top: 200px; left: 200px;
 	}
 
-		#footer .copyright {
-			margin: 2em 0;
-			padding: 0;
-			text-align: center;
-			font-family: sans-serif;
-		}
+	#footer .copyright {
+		margin: 2em 0;
+		padding: 0;
+		text-align: center;
+		font-family: sans-serif;
+	}
