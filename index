@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<h1 style="color:#FFBF00;">OVI DISEÑO DE SITIOS WEB</h1>
+
+	<title> Artesanías de Colombia</title>
+	<meta charset=”utf-8”>
+	<style type="text/css">
+
+
+	#header {
+		margin:auto;
+		width:5000x;
+		}
+	
+	ul, ol { 
+	list-style:none;
+	}
+	.menu li a {
+		background-color:#000;
+		color:#fff;
+		text-decoration:none;
+		padding:8px 10px;
+		display:block;
+		}
+	.menu li a:hover {
+	background-color:#434343;	
+	}
+	.menu > li {
+	float:left;
+	}
+	.menu li ul {
+	display:none;
+	position:absolute;
+	min-widht:100px;
+	}
+	.menu li:hover > ul {
+	display:block;
+	}
+		
+	
+	
+	</style>
+</head>
+<body>
+
+	<div id= "wrap">
+		<ul class="menu">
+			<li><a href="Formulario_Menu Administrador.html">Administrador</a></li>
+			<li><a href="Formulario_Menu Registro Productos.html">Registro de productos</a></li>
+			<li><a href="Formulario_Menu Consulta Productos.html">Consulta de productos</a></li>
+			<li><a href="Formulario_Menu Actualizacion Productos.html">Actuallizacion de productos</a></li>
+			<li><a href="Formulario_Menu Reportes Especiales.html">Reportes especiales</a></li>
+			<li><a href="Array.html">Operaciones matemáticas</a>
+				<ul>
+					<li><a href="">conversion</a></li>
+					<li><a href="">comparar</a></li>
+					<li><a href="">secuencia</a></li>
+				</ul>
+			</li>	
+		</ul>
+	</div>		
+
